@@ -1,6 +1,6 @@
 <img src="https://github.com/jarehec/AirBnB_clone_v3/blob/master/dev/HBTN-hbnb-Final.png" width="160" height=auto />
 
-# AirBnB Clone: Phase # 3
+# AirBnB Clone: Phase # 4
 
 : API with Swagger
 
@@ -212,6 +212,8 @@ github repo
 
 ## Authors
 
+* Stuart Kuredjian, [dbconfession](https://www.github.com/dbconfession78) | [@stueygk](https://twitter.com/stueygk) | [sgkur04@gmail.com](sgkur04@gmail.com)
+* Chris Turner, [clturner](https://www.github.com/clturner) | [@clturner](https://twitter.com/clturner) | [124@holbertonschool.com](124@holbertonschool.com)
 * MJ Johnson, [@mj31508](https://github.com/mj31508)
 * David John Coleman II, [davidjohncoleman.com](http://www.davidjohncoleman.com/) | [@djohncoleman](https://twitter.com/djohncoleman)
 * Kimberly Wong, [kjowong](https://github.com/kjowong) | [@kjowong](https://twitter.com/kjowong) | [kjowong@gmail.com](kjowong@gmail.com)
