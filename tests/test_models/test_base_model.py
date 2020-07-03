@@ -134,9 +134,9 @@ class TestBaseModelInstances(unittest.TestCase):
 
     def test_name_attribute(self):
         """... add name attribute"""
-        self.model.name = "Holberton"
+        self.model.name = "CodeSchool"
         actual = self.model.name
-        expected = "Holberton"
+        expected = "CodeSchool"
         self.assertEqual(expected, actual)
 
     def test_number_attribute(self):

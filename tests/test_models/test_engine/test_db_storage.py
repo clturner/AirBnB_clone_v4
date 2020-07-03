@@ -402,7 +402,7 @@ class TestCountGet(unittest.TestCase):
         cls.s = State(name="California")
         cls.c = City(state_id=cls.s.id,
                      name="San Francisco")
-        cls.u = User(email="betty@holbertonschool.com",
+        cls.u = User(email="betty@codeschool.com",
                      password="pwd")
         cls.p1 = Place(user_id=cls.u.id,
                        city_id=cls.c.id,

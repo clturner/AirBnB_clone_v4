@@ -1,9 +1,9 @@
-# bash function that adds new argument to ssh called 'holberton'
+# bash function that adds new argument to ssh called 'codeschool'
 # must add this to bash .profile (or .bashrc) config file
 # after edits run $ source ~/.bashrc
 
 ssh() {
-    if [[ "$@" == "holberton" ]]; then
+    if [[ "$@" == "codeschool" ]]; then
 	echo "   .. Which Server?? .."
 	echo ""
 	echo "(1) 123-web-01 = 66.70.187.105"
@@ -16,11 +16,11 @@ ssh() {
 	echo ""
 	echo "... please wait"
 	if [[ "$IPADDRESS" == 1 ]]; then
-	    command ssh ubuntu@66.70.187.105 -i ~/.ssh/holberton
+	    command ssh ubuntu@66.70.187.105 -i ~/.ssh/codeschool
 	elif [[ "$IPADDRESS" == 2 ]]; then
-	    command ssh ubuntu@142.44.164.125 -i ~/.ssh/holberton
+	    command ssh ubuntu@142.44.164.125 -i ~/.ssh/codeschool
 	elif [[ "$IPADDRESS" == 3 ]]; then
-	    command ssh ubuntu@66.70.187.49 -i ~/.ssh/holberton
+	    command ssh ubuntu@66.70.187.49 -i ~/.ssh/codeschool
 	elif [[ "$IPADDRESS" == 4 ]]; then
 	    echo ""
 	    read -p "what is the port #? " port
